@@ -648,12 +648,7 @@
           "type": "Polygon",
           "properties": {
             "dpt": "BOLIVAR",
-            "name": "SANTA CATALINA",
-            "codigo_municipio": "13673",
-            "id": "13673",
-            "nombre_municipio": "SANTA CATALINA",
-            "nombre_departamento": "BOLIVAR",
-            "codigo_departamento": "13000"
+            "name": "SANTA CATALINA"
           },
           "id": "13673",
           "arcs": [
