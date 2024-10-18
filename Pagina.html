@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Paisajes Naturales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .card a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #4CAF50;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Galería de Paisajes Naturales</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300?text=Montañas" alt="Montañas">
+            <a href="https://es.wikipedia.org/wiki/Montaña" target="_blank">Ver más sobre Montañas</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300?text=Bosque" alt="Bosque">
+            <a href="https://es.wikipedia.org/wiki/Bosque" target="_blank">Ver más sobre Bosques</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300?text=Playa" alt="Playa">
+            <a href="https://es.wikipedia.org/wiki/Playa" target="_blank">Ver más sobre Playas</a>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Paisaje</th>
+                <th>Ubicación</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Montañas</td>
+                <td>Cordillera de los Andes</td>
+                <td>Las montañas ofrecen vistas espectaculares y son perfectas para el senderismo.</td>
+            </tr>
+            <tr>
+                <td>Bosque</td>
+                <td>Amazonas</td>
+                <td>El pulmón del mundo, lleno de biodiversidad y paisajes exuberantes.</td>
+            </tr>
+            <tr>
+                <td>Playa</td>
+                <td>Cancún, México</td>
+                <td>Aguas cristalinas y arena blanca para disfrutar de la brisa marina.</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
